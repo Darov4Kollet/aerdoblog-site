@@ -1,0 +1,200 @@
+/*! Обнуление */
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul,
+li {
+	list-style: none;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
+img {
+	vertical-align: top;
+}
+/*! Обнуление */
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+._container {
+	max-width: 1254px;
+	margin: 0 auto;
+}
+nav {
+	margin: 0 auto;
+}
+.content_menu {
+	margin: 0 auto;
+	padding-bottom: 87px;
+}
+.menu {
+	height: 50px;
+	display: flex;
+}
+.menu_point a {
+	font-family: "Nunito";
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+}
+.point_project {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;
+
+	background-color: #000000;
+	border: 1px solid #000000;
+}
+.point_project:hover {
+	border: none;
+}
+
+.news_index_content {
+	padding-top: 100px;
+}
+
+.news_content_text {
+	margin-bottom: 60px;
+}
+.news_index_botton {
+	padding: 17.5px 66.5px;
+}
+
+.contacts {
+	background: #000000;
+}
+.contacts_text {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 32px;
+}
+.contacts_content_text h3,
+h4 {
+	color: #ffffff;
+}
+.contacts_content_text p {
+	padding-bottom: 8px;
+}
+.contacts_content_text h3 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	padding-bottom: 16px;
+
+	color: #ffffff;
+}
+.contacts_content_text h4 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 6px;
+}
+.contacts_content_text ul li,
+p {
+	font-size: 14px;
+	line-height: 19px;
+	margin-bottom: 8px;
+
+	color: #efefef;
+}
+.contacts_botton_right {
+	padding-top: 145px;
+}
+.contacts_botton {
+	align-items: center;
+	padding: 17.5px 68px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000000;
+
+	background: #ffffff;
+	border-radius: 3px;
+}
+.contacts_line {
+	width: 1254.5px;
+	height: 0px;
+	border: 0.5px solid #ffffff;
+	background-color: #ffffff;
+}
+.contacts_footer {
+	padding: 23px 0;
+}
+.contacts_footer img {
+	position: absolute;
+}
+.contacts_footer p {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+}
+.footer_text_right {
+	padding-right: 10px;
+}
+
